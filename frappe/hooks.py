@@ -553,6 +553,7 @@ default_log_clearing_doctypes = {
 	"Route History": 90,
 }
 
+<<<<<<< HEAD
 # These keys will not be erased when doing frappe.clear_cache()
 persistent_cache_keys = [
 	"changelog-*",  # version update notifications
@@ -560,3 +561,8 @@ persistent_cache_keys = [
 	"recorder-*",  # Recorder
 	"global_search_queue",
 ]
+=======
+# Technically we have event handlers but `frappe` gets special treatment
+# SocketIO server uses this to identify which apps to lookup for event handlers.
+has_realtime_event_handlers = False
+>>>>>>> b7f2073380 (feat: Extensible SocketIO)

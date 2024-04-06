@@ -552,6 +552,7 @@ default_log_clearing_doctypes = {
 	"Activity Log": 90,
 	"Route History": 90,
 }
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 # These keys will not be erased when doing frappe.clear_cache()
@@ -566,3 +567,5 @@ persistent_cache_keys = [
 # SocketIO server uses this to identify which apps to lookup for event handlers.
 has_realtime_event_handlers = False
 >>>>>>> b7f2073380 (feat: Extensible SocketIO)
+=======
+>>>>>>> a313fb90cb (fix(DX): no need to specify separate hook for socketio)
